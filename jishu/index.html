@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="utf-8"> 
+<title>计数(runoob.com)</title> 
+<!-计数开----> 
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
+</script> 
+<!-计数结束----> 
+</head> 
+<body>
+
+<DIV style="FLOAT: right; TEXT-ALIGN: right"><FONT color=#000000 face=华文中宋>
+
+♥Glen导航·陪伴我们的第
+<SPAN style=" COLOR: #ff0000"><STRONG>
+<SCRIPT>
+var date = new Date();
+var y = date.getFullYear();
+var m = date.getMonth()+1;
+var d = date.getDate();
+var pass1 = Date.parse('2018/8/30'); //开始的日期
+var pass2 = Date.parse(y+'/'+m+'/'+d); //当前日期
+var time = (pass2-pass1)/(1000*60*60*24); //过去的天数
+document.write(time);
+</SCRIPT>
+</STRONG></SPAN>
+天;
+<p>
+Total
+<SPAN style=" COLOR: #ff0000"><STRONG>
+<span id="busuanzi_container_site_pv">
+   <span id="busuanzi_value_site_pv"></span>
+</span>
+ </STRONG></SPAN>
+ views
+ </p>
+ </FONT></DIV>
+
+</body>
+</html>
